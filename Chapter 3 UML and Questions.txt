@@ -1,0 +1,87 @@
+Review Questions (1-8, 10, 12, 14-18)
+	1)A
+	2)B
+	3)D
+	4)C
+	5)B
+	6)B
+	7)A
+	8)C
+	10)B
+	12)C
+	14)True
+	15)True
+	16)False
+	17)True
+	18)False
+	
+Find the Error (1-3)
+	1)void shouldn't be in "public void MyClass"
+	2)it should be (int value1, int value2, int value3)
+	3)There are no parenthesis
+	
+Short Answer (1, 3-6, 9-12)
+	1)An instance is in a class
+	3)Accessor methods get the value but do not change it, mutators change it
+	4)Yes because then the data in that field does not get messed up by others
+	5)That class
+	6)It creates a new object
+	9)They construct an object
+	10)Fields is java-specific
+	11)An argument is a value passed to the function. A parameter is local to that function
+	12)When the class doesn't provide one
+	
+Additional Questions
+	1)D
+	2)C
+
+UML Diagrams
+	CH3PC2
+		_________________________________
+		|Car							|
+		|-------------------------------|
+		|-Year Model - Int				|
+		|-Make - String					|
+		|-Speed - Int					|
+		|-------------------------------|
+		|+setyearModel(int y): void		|
+		|+setMake(String m): void		|
+		|+setSpeed(int s): void			|
+		|getYearModel(): int			|
+		|getMake(): String				|
+		|getSpeed(): int				|
+		|accelerate(int a): int			|
+		|brake(int b): int				|
+		|_______________________________|
+		
+	CH3PC3
+		_________________________________
+		|PersonalInfo					|
+		|-------------------------------|
+		|-Name - String					|
+		|-Address - String				|
+		|-Age - Int						|
+		|-PhoneNumber - String			|
+		|-------------------------------|
+		|+setName(String n): void		|
+		|+setAddress(String a): void	|
+		|+setAge(int ag): void			|
+		|+setPhoneNumber(String p): void|
+		|getName(): String				|
+		|getAddress(): String			|
+		|getAge(): int					|
+		|getPhoneNumber(): String		|
+		|_______________________________|
+		
+	CH3PC6
+		_________________________________
+		|RetailItem						|
+		|-------------------------------|
+		|-WidgetsProduced - Int			|
+		|-Days - Double					|
+		|-------------------------------|
+		|+setWidgetsProduced(int w):void|
+		|+setDays(Double d): void		|
+		|getWidgetsProduced(): Int		|
+		|getDays(): Double				|
+		|_______________________________|
